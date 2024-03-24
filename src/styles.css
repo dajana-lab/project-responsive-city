@@ -11,10 +11,12 @@ body {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 54px;
 }
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 40px 60px;
 }
 
 header {
@@ -81,7 +83,6 @@ footer p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  margin-right: 20px;
   opacity: 0.9;
 }
 footer ul {
